@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <title>EduLearn - Modern E-Learning Platform</title>
+  </head>
+  <body class="">
+    <header>
+      <nav class="bg-white border-gray-200 dark:bg-gray-900">
+        <div
+          class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-3"
+        >
+          <a
+            href="https://flowbite.com/"
+            class="flex items-center space-x-3 rtl:space-x-reverse"
+          >
+            <img
+              src="https://flowbite.com/docs/images/logo.svg"
+              class="h-8"
+              alt="Flowbite Logo"
+            />
+            <span
+              class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+              >Flowbite</span
+            >
+          </a>
+          <div
+            class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse"
+          >
+            <button
+              type="button"
+              class="text-bla bg-white hover:bg-blue-800 border- focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center mr-2"
+            >
+              Login
+            </button>
+            <button
+              type="button"
+              class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+            >
+              Sign up
+            </button>
+            <button
+              data-collapse-toggle="navbar-cta"
+              type="button"
+              class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+              aria-controls="navbar-cta"
+              aria-expanded="false"
+            >
+              <span class="sr-only">Open main menu</span>
+              <svg
+                class="w-5 h-5"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 17 14"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M1 1h15M1 7h15M1 13h15"
+                />
+              </svg>
+            </button>
+          </div>
+          <div
+            class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1"
+            id="navbar-cta"
+          >
+            <ul
+              class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            >
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 md:p-0 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:dark:text-blue-500"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Services</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="block py-2 px-3 md:p-0 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Introduction -->
+      <section class="bg-green-50 p-[20px] grid grid-cols-1 gap-[30px]">
+        <div class="flex flex-col gap-[20px]">
+          <p
+            class="bg-green-100 text-[12px] text-primary font-bold px-3 py-1 w-fit rounded-full"
+          >
+            New Courses Available
+          </p>
+          <h1 class="text-[36px] font-bold">
+            Learn Without <span class="text-primary">Limits</span>
+          </h1>
+          <p class="text-[18px] text-gray-600">
+            Discover thousands of courses taught by industry experts and enhance
+            your skills at your own pace.
+          </p>
+          <button
+            class="bg-primary text-white text-[14px] font-medium p-3 rounded-[5px]"
+          >
+            Get Started
+          </button>
+          <button
+            class="bg-white text-black text-[14px] font-medium p-3 rounded-[5px] border-1 border-gray-200"
+          >
+            Explore Courses
+          </button>
+        </div>
+        <img
+          src="https://img.freepik.com/free-vector/e-learning-icons-flat_1284-3950.jpg"
+          alt=""
+          class="rounded-[10px]"
+        />
+      </section>
+
+      <!-- Feature Section -->
+      <section class="px-[20px] py-[100px] bg-[#f9fafb]">
+        <!--  -->
+        <div class="grid grid-cols-2 pb-5">
+          <h2 class="text-[30px] font-bold">Featured Courses</h2>
+          <button class="text-[16px] text-primary">
+            View all courses <span>→</span>
+          </button>
+        </div>
+        <div class="grid grid-cols-1 gap-[20px]">
+          <div
+            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          >
+            <div class="relative">
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="https://img-c.udemycdn.com/course/750x422/6346777_5b47_2.jpg"
+                  alt="product image"
+                />
+              </a>
+              <p
+                class="bg-primary text-white px-3 py-0.5 rounded-full text-[12px] w-fit font-semibold absolute top-5 right-5"
+              >
+                Development
+              </p>
+            </div>
+            <div class="px-5 py-5 flex flex-col gap-[15px]">
+              <a href="#">
+                <h5
+                  class="text-[24px] font-semibold tracking-tight dark:text-white"
+                >
+                  Complete Web Development Bootcamp
+                </h5>
+                <p class="text-gray-600 text-[14px]">
+                  Learn HTML, CSS, JavaScript, React, Node.js and more to become
+                  a full-stack developer
+                </p>
+              </a>
+              <div class="flex flex-row gap-[10px] items-center">
+                <i class="fa-solid fa-user-group text-[14px] text-gray-600"></i>
+                <p class="text-[14px] text-gray-600">12,500 students</p>
+                <i class="fa-solid fa-circle text-[3px] text-gray-600"></i>
+                <p class="text-[14px] text-gray-600">120 lessons</p>
+              </div>
+              <div class="flex items-center mt-2.5 mb-5">
+                <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-gray-200 dark:text-gray-600"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                </div>
+                <p class="text-gray-600 text-[12px] pl-4">(350 reviews)</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <span
+                  class="text-[18px] font-bold text-gray-900 dark:text-white"
+                  >$599</span
+                >
+                <button class="button">
+                  <span
+                    class="border-1 rounded-[5px] px-3 py-2 text-primary font-medium"
+                    >View Course</span
+                  >
+                  <span class="gradient-container">
+                    <span class="gradient"></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          >
+            <div class="relative">
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="https://img-c.udemycdn.com/course/750x422/6346777_5b47_2.jpg"
+                  alt="product image"
+                />
+              </a>
+              <p
+                class="bg-primary text-white px-3 py-0.5 rounded-full text-[12px] w-fit font-semibold absolute top-5 right-5"
+              >
+                Development
+              </p>
+            </div>
+            <div class="px-5 py-5 flex flex-col gap-[15px]">
+              <a href="#">
+                <h5
+                  class="text-[24px] font-semibold tracking-tight dark:text-white"
+                >
+                  Complete Web Development Bootcamp
+                </h5>
+                <p class="text-gray-600 text-[14px]">
+                  Learn HTML, CSS, JavaScript, React, Node.js and more to become
+                  a full-stack developer
+                </p>
+              </a>
+              <div class="flex flex-row gap-[10px] items-center">
+                <i class="fa-solid fa-user-group text-[14px] text-gray-600"></i>
+                <p class="text-[14px] text-gray-600">12,500 students</p>
+                <i class="fa-solid fa-circle text-[3px] text-gray-600"></i>
+                <p class="text-[14px] text-gray-600">120 lessons</p>
+              </div>
+              <div class="flex items-center mt-2.5 mb-5">
+                <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-gray-200 dark:text-gray-600"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                </div>
+                <p class="text-gray-600 text-[12px] pl-4">(350 reviews)</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <span
+                  class="text-[18px] font-bold text-gray-900 dark:text-white"
+                  >$599</span
+                >
+                <button class="button">
+                  <span
+                    class="border-1 rounded-[5px] px-3 py-2 text-primary font-medium"
+                    >View Course</span
+                  >
+                  <span class="gradient-container">
+                    <span class="gradient"></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700"
+          >
+            <div class="relative">
+              <a href="#">
+                <img
+                  class="rounded-t-lg"
+                  src="https://img-c.udemycdn.com/course/750x422/6346777_5b47_2.jpg"
+                  alt="product image"
+                />
+              </a>
+              <p
+                class="bg-primary text-white px-3 py-0.5 rounded-full text-[12px] w-fit font-semibold absolute top-5 right-5"
+              >
+                Development
+              </p>
+            </div>
+            <div class="px-5 py-5 flex flex-col gap-[15px]">
+              <a href="#">
+                <h5
+                  class="text-[24px] font-semibold tracking-tight dark:text-white"
+                >
+                  Complete Web Development Bootcamp
+                </h5>
+                <p class="text-gray-600 text-[14px]">
+                  Learn HTML, CSS, JavaScript, React, Node.js and more to become
+                  a full-stack developer
+                </p>
+              </a>
+              <div class="flex flex-row gap-[10px] items-center">
+                <i class="fa-solid fa-user-group text-[14px] text-gray-600"></i>
+                <p class="text-[14px] text-gray-600">12,500 students</p>
+                <i class="fa-solid fa-circle text-[3px] text-gray-600"></i>
+                <p class="text-[14px] text-gray-600">120 lessons</p>
+              </div>
+              <div class="flex items-center mt-2.5 mb-5">
+                <div class="flex items-center space-x-1 rtl:space-x-reverse">
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-yellow-300"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                  <svg
+                    class="w-4 h-4 text-gray-200 dark:text-gray-600"
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="currentColor"
+                    viewBox="0 0 22 20"
+                  >
+                    <path
+                      d="M20.924 7.625a1.523 1.523 0 0 0-1.238-1.044l-5.051-.734-2.259-4.577a1.534 1.534 0 0 0-2.752 0L7.365 5.847l-5.051.734A1.535 1.535 0 0 0 1.463 9.2l3.656 3.563-.863 5.031a1.532 1.532 0 0 0 2.226 1.616L11 17.033l4.518 2.375a1.534 1.534 0 0 0 2.226-1.617l-.863-5.03L20.537 9.2a1.523 1.523 0 0 0 .387-1.575Z"
+                    />
+                  </svg>
+                </div>
+                <p class="text-gray-600 text-[12px] pl-4">(350 reviews)</p>
+              </div>
+              <div class="flex items-center justify-between">
+                <span
+                  class="text-[18px] font-bold text-gray-900 dark:text-white"
+                  >$599</span
+                >
+                <button class="button">
+                  <span
+                    class="border-1 rounded-[5px] px-3 py-2 text-primary font-medium"
+                    >View Course</span
+                  >
+                  <span class="gradient-container">
+                    <span class="gradient"></span>
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Why Choose EduLearn -->
+      <section class="px-[20px] py-[100px]">
+        <h2 class="text-[30px] font-bold text-center">Why Choose EduLearn?</h2>
+        <p class="text-[16px] text-gray-600 text-center">
+          Our platform is designed to provide the best learning experience with
+          features that help you succeed.
+        </p>
+        <div class="grid grid-cols-1 gap-[70px]">
+          <div class="flex flex-col items-center gap-[15px]">
+            <i
+              class="fa-solid fa-book-open bg-green-200 p-5 text-primary rounded-full ml-0 mr-0"
+            ></i>
+            <h3 class="text-[20px] font-semibold text-center">
+              Expert Instructors
+            </h3>
+            <p class="text-[16px] text-gray-600 text-center">
+              Learn from industry professionals with years of experience in
+              their fields.
+            </p>
+          </div>
+          <div class="flex flex-col items-center gap-[15px]">
+            <i
+              class="fa-solid fa-book-open bg-green-200 p-5 text-primary rounded-full ml-0 mr-0"
+            ></i>
+            <h3 class="text-[20px] font-semibold text-center">
+              Expert Instructors
+            </h3>
+            <p class="text-[16px] text-gray-600 text-center">
+              Learn from industry professionals with years of experience in
+              their fields.
+            </p>
+          </div>
+          <div class="flex flex-col items-center gap-[15px]">
+            <i
+              class="fa-solid fa-book-open bg-green-200 p-5 text-primary rounded-full ml-0 mr-0"
+            ></i>
+            <h3 class="text-[20px] font-semibold text-center">
+              Expert Instructors
+            </h3>
+            <p class="text-[16px] text-gray-600 text-center">
+              Learn from industry professionals with years of experience in
+              their fields.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- What Our Students Say -->
+      <section class="px-[20px] py-[100px] bg-[#f9fafb]">
+        <h2 class="text-[30px] font-bold text-center">What Our Students Say</h2>
+        <div>
+          <div
+            class="flex flex-col justify-between rounded-md border border-gray-200 p-8 shadow-sm max-w-sm mx-auto mt-24"
+          >
+            <!-- stars -->
+            <div class="text-violet-500 flex gap-2">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="text-violet-500"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="text-violet-500"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="text-violet-500"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="text-violet-500"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"
+                ></path>
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="text-violet-500"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                fill="none"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"
+                ></path>
+              </svg>
+            </div>
+
+            <p
+              class="my-4 mb-0 text-[16px] text-gray-600 italic"
+            >
+              I've been using XYZ for over a year now and their customer service
+              is excellent! Whenever I have a question, the team is always
+              available and willing to help. Highly recommend!
+            </p>
+
+            <div class="mt-6 flex items-center gap-6">
+              <div
+                class="h-10 w-10 overflow-hidden rounded-full shadow-sm outline-neutral-800"
+              >
+                <div
+                  class="relative inline-block overflow-hidden rounded-lg border-neutral-800"
+                >
+                  <img
+                    alt=""
+                    src="https://randomuser.me/api/portraits/women/2.jpg"
+                    width="50"
+                    height="50"
+                    decoding="async"
+                    data-nimg="1"
+                    class="inline-block"
+                    loading="lazy"
+                    style="color: transparent"
+                  />
+                </div>
+              </div>
+              <div>
+                <p class="text-[16px] font-semibold">
+                  Melissa Smith
+                </p>
+                <p class="text-[14px] text-gray-600">
+                  Marketing Manager
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+  </body>
+</html>
